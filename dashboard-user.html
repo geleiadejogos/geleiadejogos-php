@@ -54,88 +54,85 @@
                 </div>
             </nav>
         </header>
-        <main>
-            <section class="section section-shaped section-lg my-0">
+        <main class="profile-page">
+            <section class="section section-lg my-0 full-height">
                 <div class="bg-image-primary"></div>
-                <div class="container pt-lg-md">
+                <div class="container-fluid pt-lg-md">
                     <div class="row justify-content-center">
-                        <div class="col-lg-5">
-                            <div class="card bg-secondary shadow border-0">
-                                <div class="card-header bg-white pb-5">
-                                    <div class="text-muted text-center mb-3">
-                                        <small>Entre com</small>
-                                    </div>
-                                    <div class="text-center">
-                                        <a href="#" class="btn btn-neutral btn-icon mr-4">
-                                            <span class="btn-inner--icon">
-                                                <img src="./assets/img/icons/common/github.svg">
-                                            </span>
-                                            <span class="btn-inner--text">Github</span>
+                        <div class="col-md-3" style="margin-bottom: 5em">
+                            <div class="card bg-secondary shadow py-2 px-3">
+                                <ul class="list-unstyled mb-0">
+                                    <li class="my-2">
+                                        <a href="#" class="btn btn-icon btn-block btn-primary">
+                                        	<span class="btn-inner--icon"><i class="ni ni-circle-08"></i></span>
+                                            <span class="btn-inner--text">Perfil</span>
                                         </a>
-                                        <a href="#" class="btn btn-neutral btn-icon">
-                                            <span class="btn-inner--icon">
-                                                <img src="./assets/img/icons/common/google.svg">
-                                            </span>
-                                            <span class="btn-inner--text">Google</span>
+                                    </li>
+                                    <li class="my-2">
+                                        <a href="#" class="btn btn-icon btn-block btn-outline-secondary">
+                                        	<span class="btn-inner--icon"><i class="ni ni-user-run"></i></span>
+                                            <span class="btn-inner--text">Times</span>
                                         </a>
-                                    </div>
-                                </div>
-                                <div class="card-body px-lg-5 py-lg-5">
-                                    <div class="text-center text-muted mb-4">
-                                        <small>Ou crie sua conta:</small>
-                                    </div>
-                                    <form role="form" action="#" autocomplete="off">
-                                        <div class="form-group input-group-alternative">
-                                            <input class="form-control" name="name" placeholder="Name" type="text">
+                                    </li>
+                                    <li class="my-2">
+                                        <a href="#" class="btn btn-icon btn-block btn-outline-secondary">
+                                        	<span class="btn-inner--icon"><i class="ni ni-bell-55"></i></span>
+                                            <span class="btn-inner--text">Notificações</span>
+                                        </a>
+                                    </li>
+                                    <li class="my-2">
+                                        <a href="#" class="btn btn-icon btn-block btn-outline-secondary">
+                                        	<span class="btn-inner--icon"><i class="ni ni-settings-gear-65"></i></span>
+                                            <span class="btn-inner--text">Editar Perfil</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="card bg-secondary card-profile shadow mt-0">
+                                <div class="px-4">
+                                    <div class="row justify-content-center">
+                                        <div class="col-lg-3 order-lg-2">
+                                            <div class="card-profile-image">
+                                                <a href="#">
+                                                    <img src="./assets/img/team/lucas.jpg" class="rounded-circle">
+                                                </a>
+                                            </div>
                                         </div>
-                                        <div class="form-group input-group-alternative">
-                                            <input class="form-control" name="email" placeholder="Email" type="email">
+                                        <div class="col-lg-4 order-lg-3 text-lg-right align-self-lg-center">
+                                            <div class="card-profile-actions py-4 mt-lg-0">
+                                                <a href="#" class="btn btn-sm btn-info mr-4">Facebook</a>
+                                                <a href="#" class="btn btn-sm btn-default float-right">Github</a>
+                                            </div>
                                         </div>
-                                        <div class="form-group input-group-alternative">
-                                            <input class="form-control" name="cpf" placeholder="CPF" type="text">
-                                        </div>
-                                        <div class="form-group input-group-alternative">
-                                            <select class="form-control" name="city">
-                                                <option>Quissamã</option>
-                                                <option>Campos dos Goytacazes</option>
-                                                <option>Carapebus</option>
-                                                <option>Bom Jesus</option>
-                                                <option>Macaé</option>
-                                                <option>Outro</option>
-                                            </select>
-                                        </div>
-                                        <div class="form-group input-group-alternative">
-                                            <select class="form-control" name="uf">
-                                                <option>RJ</option>
-                                                <option>SP</option>
-                                                <option>ES</option>
-                                                <option>Outro</option>
-                                            </select>
-                                        </div>
-                                        <div class="form-group input-group-alternative">
-                                            <input class="form-control" name="password" placeholder="Senha" type="password">
-                                        </div>
-                                        <div class="text-muted font-italic">
-                                            <small>Força da senha:
-                                                <span class="text-success font-weight-700">FORTE</span>
-                                            </small>
-                                        </div>
-                                        <div class="row my-4">
-                                            <div class="col-12">
-                                                <div class="custom-control custom-control-alternative custom-checkbox">
-                                                    <input class="custom-control-input" id="customCheckRegister" type="checkbox">
-                                                    <label class="custom-control-label" for="customCheckRegister">
-                                                        <span>Eu concordo com os
-                                                            <a href="#">Termos de Participação</a>
-                                                        </span>
-                                                    </label>
+                                        <div class="col-lg-4 order-lg-1">
+                                            <div class="card-profile-stats d-flex justify-content-center">
+                                                <div>
+                                                    <span class="heading">3</span>
+                                                    <span class="description">Geleias de Jogos</span>
+                                                </div>
+                                                <div>
+                                                    <span class="heading">3</span>
+                                                    <span class="description">Equipes</span>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="text-center">
-                                            <a href="dashboard-user.html" class="btn btn-primary mt-4">Criar conta</a>
+                                    </div>
+                                    <div class="text-center mt-5">
+                                        <h3>Lucas Craveiro Paes<span class="font-weight-light">, 19</span>
+                                        </h3>
+                                        <div class="h6 font-weight-300"><i class="ni location_pin mr-2"></i>Quissamã, Rio de Janeiro</div>
+                                        <div class="h6 mt-4"><i class="ni business_briefcase-24 mr-2"></i>Web Designer - React Developer</div>
+                                        <div><i class="ni education_hat mr-2"></i>Bacharelando em Sistemas de Informação</div>
+                                    </div>
+                                    <div class="mt-5 py-5 border-top text-center">
+                                        <div class="row justify-content-center">
+                                            <div class="col-lg-9">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                            </div>
                                         </div>
-                                    </form>
+                                    </div>
                                 </div>
                             </div>
                         </div>
